@@ -31,7 +31,7 @@ _Add your project screenshots here (4-5 images recommended)_
 
 ## 🚀 Live Demo
 
-🔗 [View Live Project](#)  
+🔗 [[View Live Project](https://manav0344.github.io/My-Reusme-CV/)](#)  
 _(Replace with your GitHub Pages link)_
 
 ## 📂 Project Structure
