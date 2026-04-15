@@ -1,0 +1,342 @@
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  color: #2b2b2b;
+  background-color: #c8c8c8;   
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 12px;
+}
+
+
+
+.resume {
+  width: 100%;
+  max-width: 880px;              
+  display: flex;                 
+  flex-direction: row;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.left-col {
+  width: 310px;                  
+  min-width: 310px;
+  background-color: #e8e8e8;    
+  padding: 30px 22px;
+}
+
+
+
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+
+.job-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #3a3a3a;
+  margin-bottom: 18px;
+}
+
+
+
+
+
+.photo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.photo-box {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;            
+  background-color: #aaa;
+  border: 3px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+
+
+img.photo-box {
+  object-fit: cover;             
+  font-size: 0;                  
+}
+
+
+
+
+.contact-list {
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+
+.contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 9px;
+  font-size: 12.5px;
+  color: #2b2b2b;
+  line-height: 1.4;
+}
+
+
+.c-icon {
+  font-size: 13px;
+  color: #444;
+  flex-shrink: 0;
+  margin-top: 1px;
+  width: 16px;
+  text-align: center;
+}
+
+
+
+.section-bar {
+  background-color: #d0d0d0;    
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #1a1a1a;
+  padding: 5px 0;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+
+.right-col .section-bar {
+  background-color: #e0e0e0;  
+}
+
+.right-col{
+  padding: 50px;
+}
+
+
+
+
+.skill-block {
+  margin-bottom: 10px;
+}
+
+
+.skill-label {
+  font-weight: 700;
+  font-size: 12.5px;
+  color: #1a1a1a;
+  margin-bottom: 2px;
+}
+
+
+.skill-text {
+  font-size: 12.5px;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+.edu-block {
+  margin-bottom: 8px;
+}
+
+
+.edu-degree {
+  font-weight: 700;
+  font-size: 12.5px;
+  color: #1a1a1a;
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+
+
+.edu-info {
+  font-size: 12px;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+.course-block {
+  margin-bottom: 8px;
+}
+
+
+.course-title {
+  font-weight: 700;
+  font-size: 12.5px;
+  color: #1a1a1a;
+  margin-bottom: 2px;
+}
+
+.course-meta {
+  font-size: 12px;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+
+
+.right-col {
+  flex: 1;                       
+  background-color: #ffffff;     
+  padding: 30px 26px;
+}
+
+
+
+.body-text {
+  font-size: 13px;
+  color: #2b2b2b;
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+
+
+.justify {
+  text-align: justify;
+}
+
+
+
+.bullet-list {
+  padding-left: 18px;          
+  margin-bottom: 4px;
+}
+
+.bullet-list li {
+  font-size: 12.5px;
+  color: #2b2b2b;
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+
+
+.italic-list li {
+  font-style: italic;
+  color: #333;
+}
+
+
+.project-block {
+  margin-bottom: 14px;
+}
+
+
+.project-name {
+  font-weight: 700;
+  font-size: 13px;
+  color: #1a1a1a;
+  margin-bottom: 1px;
+}
+
+
+.project-stack {
+  font-size: 12px;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px 10px;
+  }
+
+
+  .left-col {
+    width: 260px;
+    min-width: 260px;
+    padding: 24px 16px;
+  }
+
+  .right-col {
+    padding: 24px 18px;
+  }
+
+  .name {
+    font-size: 23px;
+  }
+
+}
+
+
+
+@media (max-width: 580px) {
+
+  body {
+    padding: 0;
+    background-color: #e8e8e8;
+  }
+
+
+  .resume {
+    flex-direction: column;     
+    box-shadow: none;
+    max-width: 100%;
+  }
+
+
+  .left-col {
+    width: 100%;
+    min-width: 100%;
+    padding: 24px 20px;
+  }
+
+
+  .right-col {
+    width: 100%;
+    padding: 24px 20px;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  .photo-box {
+    width: 90px;
+    height: 90px;
+  }
+
+}
